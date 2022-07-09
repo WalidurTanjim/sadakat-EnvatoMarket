@@ -221,3 +221,75 @@ iframe{
 .about-btn:hover{
     background-color: #cc8708;
 }
+
+
+
+
+#causes{
+    padding: 60px 0;
+    background-color: #1e1e1e;
+}
+.causes-header{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.causes-header-title{
+    color: #ffa500;
+    font-size: 1.5rem;
+}
+.causes-header-para{
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.causes-items{
+    display: grid;
+    grid-gap: 20px;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+}
+.causes-item{
+    text-align: center;
+    border: 1px solid #747474;
+    box-shadow: 0 0 10px #808080;
+}
+
+.causes-img{
+    background-image: url(../images/poor-1.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.causes-img-2{
+    background-image: url(../images/poor-education.jpg);
+}
+.causes-img-3{
+    background-image: url(../images/poor-3.jpg);
+}
+.causes-img-4{
+    background-image: url(../images/poor-4.jpg);
+}
+.causes-img-5{
+    background-image: url(../images/poor-5.jpg);
+}
+.causes-img-6.jpg{
+    background-image: url(../images/poor-6.jpg);
+}
+.causes-img:hover{
+    opacity: .5;
+}
+.causes-describe-title{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.causes-describe-details{
+    font-size: .9rem;
+    color: #808080;
+    padding: 0 5px;
+}
